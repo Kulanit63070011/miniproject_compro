@@ -9,30 +9,93 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
     <title>Check Bill</title>
   </head>
-  <body style="font-family: 'Kanit', sans-serif;">
+  <body style="font-family: 'Kanit', sans-serif; ">
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow ">
         <div class="container-fluid">
           <a class="navbar-brand">BILL</a>
         </div>
     </nav>
-    <div class="row ">
+    <div class="row">
         <div class="col-sm ">
-            <img style="height:75%; padding-top: 10%; padding-left: 5%;" src="1.png">
+            <img style="height:75%; margin-top: 3%; border-radius:25px; margin-left: 5%; box-shadow: 5px 5px 5px #686868;"  src="1.png">
         </div>
         <div class="col-sm">
-            <p style="padding-top: 50%; font-size:25px; padding-right: 20%; text-shadow: 2px 2px 8px #808080; color: #1a1a1a;">หน้าแรกของโปรแกรมจะประกอบด้วย3เมนูให้เลือกดังรูป ผู้ใช้งานเลือกได้ด้วยการพิมพ์เลขด้านหน้าเมนูที่ต้องการ</p>
+            <p style="padding-top: 40%; font-size:25px; padding-right: 20%; text-shadow: 2px 2px 4px #808080; color: #333333;">หน้าแรกของโปรแกรมจะประกอบด้วย3เมนูให้เลือกดังรูป ผู้ใช้งานเลือกได้ด้วยการพิมพ์เลขด้านหน้าเมนูที่ต้องการ</p>
         </div>
     </div>
-    <div class="row bg-dark">
-        <div class="col-sm ">
-            <img style="height:75%; padding-top: 50px; padding-left: 5%;" src="1.png">
+    <div class="row bg-dark" style="margin-top: -8%;">
+        <div class="col-6 ">
+            <img style="margin-top: 10%; height:60%; margin-left: 5%; box-shadow: 2px 2px 8px #b3b3b3; border-radius:25px;" src="2.jpg">
         </div>
-        <div class="col-sm">
-            <p style="padding-top: 50%; font-size:25px; padding-right: 20%;">หน้าแรกของโปรแกรมจะประกอบด้วย3เมนูให้เลือกดังรูป ผู้ใช้งานเลือกได้ด้วยการพิมพ์เลขด้านหน้าเมนูที่ต้องการ</p>
+        <div class="col-6">
+            <p style="padding-top: 60%; font-size:25px; padding-left: 7%; padding-right: 5%;color:white; text-shadow: 1.8px 1.8px 4px #808080">โค้ดในส่วนแรกจะมีการประกาศStructureเพื่อไว้สำหรับเว็บข้อมูลของสินค้า ซึ่งประกอบไปด้วยชื่อ และราคาพร้อมกับประกาศอาเรย์ของตัวแปรชนิดโครงสร้าง ต่อมาจะเป็นส่วนของหน้าโปรแกรมหน้าแรก มีการใช้Switch caseโดยรับค่าจากการพิมพ์สำหรับการเลือกเมนูต่างๆ</p>
         </div>
     </div>
+    <div class="row bg-white" style="margin-top: -30%;">
+      <div class="col-sm ">
+          <img style="height:65%; margin-top: 8%; padding-left: 5%; box-shadow: 5px 5px 5px #686868; border-radius:25px;" src="3.png">
+      </div>
+      <div class="col-sm">
+          <p style="padding-top: 45%; font-size:25px; padding-right: 10%; text-shadow: 2px 2px 4px #808080; color: #333333;">เมนูแรก[1]เป็นระบบเพิ่มสินค้า โดยระบบจะให้ผู้ใช้งานกรอกชื่อสินค้า และราคา เมื่อผู้ใช้ทำการเพิ่มสินค้าสำเร็จระบบจะสอบถามว่าต้องการเพิ่มสินค้าอีกหรือไม่ ถ้าไม่จะกลับสู่หน้าเมนูหลัก</p>
+      </div>
+  </div>
+  <div class="row bg-dark" style="margin-top: -10%; padding-bottom:3%;">
+    <div class="col-6 ">
+        <img style="margin-top: 8%; width:100%; margin-left: 5%; box-shadow: 2px 2px 8px #b3b3b3; border-radius:25px;" src="4.png">
+    </div>
+    <div class="col-6">
+        <p style="padding-top: 20%; font-size:25px; padding-left: 7%; padding-right: 5%;color:white; text-shadow: 1.8px 1.8px 4px #808080">โค้ดของระบบเพิ่มสินค้าจะอยู่ในฟังก์ชั่นaddpro ซึ่งจะทำการรับชื่อ และราคาของสินค้าไปเก็บไว้ในตัวแปรชนิดโครงสร้างในรูปแบบของอาเรย์ และมีการใช้switch caseในการตรวจสอบว่าผู้ใช้งานต้องการเพิ่มสินค้าอีกหรือไม่</p>
+    </div>
+  </div>
+  <div class="row bg-white">
+    <div class="col-sm ">
+        <img style="height:75%; margin-top: 8%; margin-left: 5%;  box-shadow: 5px 5px 5px #686868; border-radius:25px;" src="5.png">
+    </div>
+    <div class="col-sm">
+        <p style="padding-top: 45%; font-size:25px; padding-right: 10%; text-shadow: 2px 2px 4px #808080; color: #333333;">เมนูที่สอง[2]จะเป็นการแสดงลิสต์ของสินค้าที่ผู้ใช้ได้ทำการเพิ่มเข้าไปในระแบบ</p>
+    </div>
+  </div>
+  <div class="row bg-dark" style=" padding-bottom:3%;">
+    <div class="col-6 ">
+        <img style="margin-top: 5%; width:100%; margin-left: 5%; box-shadow: 2px 2px 8px #b3b3b3; border-radius:25px" src="6.png">
+    </div>
+    <div class="col-6">
+        <p style="padding-top: 27%; font-size:25px; padding-left: 7%; padding-right: 5%;color:white; text-shadow: 1.8px 1.8px 4px #808080">โค้ดระบบการแสดงลิสต์สินค้าจะมีการตรวจวสอบก่อนว่ามีสินค้าอยู่ในระบบหรือไม่ โดยตรวจสอบจากค่าอาเรย์ของตัวแปรชนิดโครงสร้างของสินค้า หากไม่มีสินค้าอยู่เลย ระบบจะทำการถามว่าต้องการเพิ่มสินค้าหรือไม่ ถ้าไม่จะกลับสู่หน้าเมนู ถ้าใช่จะเข้าสู่ระบบเพิ่มสินค้าที่ฟังก์ชันaddpro แต่ถ้ามีสินค้าอยู่ระบบจะทำการลูปแสดงสินค้าทั้งหมดจากค่าอาเรย์ของตัวแปรชนิดโครงสร้าง</p>
+    </div>
+  </div>
+  <div class="row bg-white">
+    <div class="col-sm ">
+        <img style="height:65%; margin-top: 8%; margin-left: 5%; box-shadow: 5px 5px 5px #686868; border-radius:25px;" src="7.png">
+    </div>
+    <div class="col-sm">
+        <p style="padding-top: 60%; margin-left:-15%;font-size:25px; padding-right: 10%; text-shadow: 2px 2px 4px #808080; color: #333333;">เมนูสุดท้าย[3]ส่วนแรกจะเป็นการทำบิลโดยรับข้อมูลสินค้าและจำนวนจากผู้ใช้</p>
+    </div>
+  </div>
+  <div class="row bg-dark" style="margin-top: -5%; padding-bottom:3%;">
+    <div class="col-6 ">
+        <img style="margin-top: 8%; width:100%; margin-left: 5%; box-shadow: 2px 2px 8px #b3b3b3; border-radius:25px" src="8.png">
+    </div>
+    <div class="col-6">
+        <p style="padding-top: 15%; font-size:25px; padding-left: 7%; padding-right: 5%;color:white; text-shadow: 1.8px 1.8px 4px #808080">โค้ดระบบการทำบิลส่วนแรกจะอยู่ในฟังก์ชันbill โดยส่วนแรกจะเป็นส่วนของการับข้อมูลสินค้าต่างๆ โดยเริ่มจากรับจำนวนชนิดของสินค้า เพื่อนำไปลูปรับสินค้าที่ผู้ใช้ต้องการใส่โดยพิมพ์เลขที่อยู่หน้าชื่อของสินค้านั้นๆ และจำนวนโดยเก็บเป็นอาเรย์2ตัวแปร เพื่อนำไปเทียบคำนวนราคาจากลิสต์ของสินค้าต่อไป</p>
+    </div>
+  </div>
+  <div class="row bg-white">
+    <div class="col-sm ">
+        <img style="height:65%; margin-top: 8%; margin-left: 5%; box-shadow: 5px 5px 5px #686868; border-radius:25px;" src="9.png">
+    </div>
+    <div class="col-sm">
+        <p style="padding-top: 60%; margin-left:-15%;font-size:25px; padding-right: 10%; text-shadow: 2px 2px 4px #808080; color: #333333;">ส่วนสุดท้าย[3]จะเป็นหน้าที่แสดงชื่อสินค้า ราคา จำนวน และรวมเงินที่ต้องจ่าย ซึ่งคำนวณจากการรับค่าจากส่วนที่แล้ว</p>
+    </div>
+  </div>
+  <div class="row bg-dark" style="margin-top: -5%; padding-bottom:3%;">
+    <div class="col-6 ">
+        <img style="margin-top: 7%; width:100%; margin-left: 5%; box-shadow: 2px 2px 8px #b3b3b3; border-radius:25px" src="10.png">
+    </div>
+    <div class="col-6">
+        <p style="padding-top: 15%; font-size:25px; padding-left: 7%; padding-right: 5%;color:white; text-shadow: 1.8px 1.8px 4px #808080">โค้ดระบบการทำบิลส่วนสุดท้ายจะอยู่ในฟังก์ชันbillเช่นกัน โดยจะทำการลูปแสดงข้อมูลสินค้าที่รับเข้ามาจากเลขสินค้าเทียบกับค่าอาเรย์ของตัวแปรชนิดโครงสร้างสินค้าและคำนวณจำนวนเงิน และถามว่าต้องการสร้างบิลเพิ่มหรือไม่ด้วยswitch case ถ้าไม่จะกลับสู่หน้าหลัก</p>
+    </div>
+  </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
-
   </body>
 </html>
