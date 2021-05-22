@@ -1,96 +1,11 @@
 # CHECK BILL
 ## Features
 เป็น Mini Project วิชา Computer Programming พัฒนาเกี่ยวกับApplication โดยมีวัตถุประสงค์ในการนำความรู้ทางด้าน Programming ภาษา C มาประยุกต์ในการสร้างชิ้น งานชิ้นนี้ ซึ่งApplication ที่ทางจัดทำสร้างขึ้นมีแนวคิดมาจากการซื้อขายของทั่วไป โดยที่วัตถุประสงค์ของApplication คือการคำนวณราคาของสินค้าที่มีอยู่ในระบบเพื่อความสะดวกสบาย และประหยัดเวลาของผู้ใช้งานในการคำนวณราคาสินค้า หลายๆชิ้นและหลายๆสินค้าในระบบ รวมไปถึงเมื่อมีสินค้าใหม่เข้ามาก็สามารถเพิ่มเข้าไปในApplicationได้ เพื่อใช้สำหรับในการคำนวณราคาของสินค้าต่อไป
-## สารบัญ
+## การทำงานของแอพพลิเคชั่น
+หน้าแรกของโปรแกรมจะประกอบด้วย3เมนูให้เลือ ผู้ใช้งานเลือกได้ด้วยการพิมพ์เลขด้านหน้าเมนูที่ต้องการ
+* เมนูแรก[1]เป็นระบบเพิ่มสินค้า โดยระบบจะให้ผู้ใช้งานกรอกชื่อสินค้า และราคา เมื่อผู้ใช้ทำการเพิ่มสินค้าสำเร็จระบบจะสอบถามว่าต้องการเพิ่มสินค้าอีกหรือไม่ ถ้าไม่จะกลับสู่หน้าเมนูหลัก
+* เมนูที่สอง[2]จะเป็นการแสดงลิสต์ของสินค้าที่ผู้ใช้ได้ทำการเพิ่มเข้าไปในระแบบ
+* เมนูสุดท้าย[3]
+	* ส่วนแรกจะเป็นการทำบิลโดยรับข้อมูลสินค้าและจำนวนจากผู้ใช้
+	* ส่วนต่อมาจะเป็นหน้าที่แสดงชื่อสินค้า ราคา จำนวน และรวมเงินที่ต้องจ่าย ซึ่งคำนวณจากการรับค่าจากส่วนที่แล้ว
 
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
-
-# บทคัดย่อ link [Heading link](https://github.com/Kulanit63070011/miniproject_compro/blob/6aeee9d9ffb35a649b546673bc4dd0004657426a/Abstract.pdf "Heading link")
-# Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-# Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-# Heading 4 link [Heading link](https://github.com/pandao/editor.md "Heading link") Heading link [Heading link](https://github.com/pandao/editor.md "Heading link")
-# Heading 5 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-# Heading 6 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-
-
-
-#### Javascript　
-
-```javascript
-function test(){
-	console.log("Hello world!");
-}
- 
-(function(){
-    var box = function(){
-        return box.fn.init();
-    };
-
-    box.prototype = box.fn = {
-        init : function(){
-            console.log('box.init()');
-
-			return this;
-        },
-
-		add : function(str){
-			alert("add", str);
-
-			return this;
-		},
-
-		remove : function(str){
-			alert("remove", str);
-
-			return this;
-		}
-    };
-    
-    box.fn.init.prototype = box.fn;
-    
-    window.box =box;
-})();
-
-var testBox = box();
-testBox.add("jQuery").remove("jQuery");
-```
-
-#### HTML code
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <mate charest="utf-8" />
-        <title>Hello world!</title>
-    </head>
-    <body>
-        <h1>Hello world!</h1>
-    </body>
-</html>
-```
-
-### Images
-
-Image:
-
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
-
-> Follow your heart.
-
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
-
-> 图为：厦门白城沙滩 Xiamen
-
-图片加链接 (Image + Link)：
-
-[![](https://pandao.github.io/editor.md/examples/images/7.jpg)](https://pandao.github.io/editor.md/examples/images/7.jpg "李健首张专辑《似水流年》封面")
-
-> 图为：李健首张专辑《似水流年》封面
-                
-----
