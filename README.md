@@ -19,7 +19,7 @@
 
 
 
-####Javascript　
+#### Javascript　
 
 ```javascript
 function test(){
@@ -60,7 +60,7 @@ var testBox = box();
 testBox.add("jQuery").remove("jQuery");
 ```
 
-####HTML code
+#### HTML code
 
 ```html
 <!DOCTYPE html>
@@ -75,7 +75,7 @@ testBox.add("jQuery").remove("jQuery");
 </html>
 ```
 
-###Images
+### Images
 
 Image:
 
